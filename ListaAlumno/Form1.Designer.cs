@@ -57,13 +57,15 @@
             this.txtNumeroCal = new System.Windows.Forms.TextBox();
             this.btnGuardarEnLaLista = new System.Windows.Forms.Button();
             this.btnCargar = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(96, 170);
+            this.label6.Location = new System.Drawing.Point(96, 204);
             this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(62, 21);
@@ -74,7 +76,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(96, 141);
+            this.label5.Location = new System.Drawing.Point(96, 175);
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(85, 21);
@@ -85,7 +87,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(96, 110);
+            this.label4.Location = new System.Drawing.Point(96, 144);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(80, 21);
@@ -96,7 +98,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(96, 82);
+            this.label3.Location = new System.Drawing.Point(96, 116);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(68, 21);
@@ -107,7 +109,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(96, 53);
+            this.label2.Location = new System.Drawing.Point(96, 87);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(75, 21);
@@ -118,7 +120,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(96, 22);
+            this.label1.Location = new System.Drawing.Point(96, 56);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(68, 21);
@@ -127,8 +129,8 @@
             // 
             // btnModificar
             // 
-            this.btnModificar.Location = new System.Drawing.Point(316, 208);
-            this.btnModificar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnModificar.Location = new System.Drawing.Point(316, 242);
+            this.btnModificar.Margin = new System.Windows.Forms.Padding(2);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(91, 43);
             this.btnModificar.TabIndex = 26;
@@ -138,8 +140,8 @@
             // 
             // btnBuscar
             // 
-            this.btnBuscar.Location = new System.Drawing.Point(221, 208);
-            this.btnBuscar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBuscar.Location = new System.Drawing.Point(221, 242);
+            this.btnBuscar.Margin = new System.Windows.Forms.Padding(2);
             this.btnBuscar.Name = "btnBuscar";
             this.btnBuscar.Size = new System.Drawing.Size(91, 43);
             this.btnBuscar.TabIndex = 25;
@@ -149,8 +151,8 @@
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(126, 208);
-            this.btnEliminar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEliminar.Location = new System.Drawing.Point(126, 242);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(2);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(91, 43);
             this.btnEliminar.TabIndex = 24;
@@ -160,8 +162,8 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(31, 208);
-            this.btnAgregar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAgregar.Location = new System.Drawing.Point(31, 242);
+            this.btnAgregar.Margin = new System.Windows.Forms.Padding(2);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(91, 43);
             this.btnAgregar.TabIndex = 23;
@@ -172,8 +174,8 @@
             // txtCarrera
             // 
             this.txtCarrera.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCarrera.Location = new System.Drawing.Point(188, 170);
-            this.txtCarrera.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtCarrera.Location = new System.Drawing.Point(188, 204);
+            this.txtCarrera.Margin = new System.Windows.Forms.Padding(2);
             this.txtCarrera.Name = "txtCarrera";
             this.txtCarrera.Size = new System.Drawing.Size(150, 26);
             this.txtCarrera.TabIndex = 22;
@@ -181,8 +183,8 @@
             // txtApellidoM
             // 
             this.txtApellidoM.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtApellidoM.Location = new System.Drawing.Point(188, 141);
-            this.txtApellidoM.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtApellidoM.Location = new System.Drawing.Point(188, 175);
+            this.txtApellidoM.Margin = new System.Windows.Forms.Padding(2);
             this.txtApellidoM.Name = "txtApellidoM";
             this.txtApellidoM.Size = new System.Drawing.Size(150, 26);
             this.txtApellidoM.TabIndex = 21;
@@ -190,8 +192,8 @@
             // txtApellidoP
             // 
             this.txtApellidoP.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtApellidoP.Location = new System.Drawing.Point(188, 111);
-            this.txtApellidoP.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtApellidoP.Location = new System.Drawing.Point(188, 145);
+            this.txtApellidoP.Margin = new System.Windows.Forms.Padding(2);
             this.txtApellidoP.Name = "txtApellidoP";
             this.txtApellidoP.Size = new System.Drawing.Size(150, 26);
             this.txtApellidoP.TabIndex = 20;
@@ -199,8 +201,8 @@
             // txtNombre
             // 
             this.txtNombre.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombre.Location = new System.Drawing.Point(188, 82);
-            this.txtNombre.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNombre.Location = new System.Drawing.Point(188, 116);
+            this.txtNombre.Margin = new System.Windows.Forms.Padding(2);
             this.txtNombre.Name = "txtNombre";
             this.txtNombre.Size = new System.Drawing.Size(150, 26);
             this.txtNombre.TabIndex = 19;
@@ -208,8 +210,8 @@
             // txtMatricula
             // 
             this.txtMatricula.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMatricula.Location = new System.Drawing.Point(188, 53);
-            this.txtMatricula.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtMatricula.Location = new System.Drawing.Point(188, 87);
+            this.txtMatricula.Margin = new System.Windows.Forms.Padding(2);
             this.txtMatricula.Name = "txtMatricula";
             this.txtMatricula.Size = new System.Drawing.Size(150, 26);
             this.txtMatricula.TabIndex = 18;
@@ -217,8 +219,8 @@
             // txtNumero
             // 
             this.txtNumero.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNumero.Location = new System.Drawing.Point(188, 24);
-            this.txtNumero.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNumero.Location = new System.Drawing.Point(188, 58);
+            this.txtNumero.Margin = new System.Windows.Forms.Padding(2);
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(150, 26);
             this.txtNumero.TabIndex = 17;
@@ -226,8 +228,8 @@
             // LstAlumno
             // 
             this.LstAlumno.FormattingEnabled = true;
-            this.LstAlumno.Location = new System.Drawing.Point(31, 268);
-            this.LstAlumno.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.LstAlumno.Location = new System.Drawing.Point(31, 303);
+            this.LstAlumno.Margin = new System.Windows.Forms.Padding(2);
             this.LstAlumno.Name = "LstAlumno";
             this.LstAlumno.Size = new System.Drawing.Size(695, 238);
             this.LstAlumno.TabIndex = 33;
@@ -235,7 +237,7 @@
             // btnModificarCal
             // 
             this.btnModificarCal.Location = new System.Drawing.Point(723, 135);
-            this.btnModificarCal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnModificarCal.Margin = new System.Windows.Forms.Padding(2);
             this.btnModificarCal.Name = "btnModificarCal";
             this.btnModificarCal.Size = new System.Drawing.Size(91, 43);
             this.btnModificarCal.TabIndex = 59;
@@ -245,7 +247,7 @@
             // btnBuscarCal
             // 
             this.btnBuscarCal.Location = new System.Drawing.Point(628, 135);
-            this.btnBuscarCal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnBuscarCal.Margin = new System.Windows.Forms.Padding(2);
             this.btnBuscarCal.Name = "btnBuscarCal";
             this.btnBuscarCal.Size = new System.Drawing.Size(91, 43);
             this.btnBuscarCal.TabIndex = 58;
@@ -256,7 +258,7 @@
             // btnEliminarCal
             // 
             this.btnEliminarCal.Location = new System.Drawing.Point(532, 135);
-            this.btnEliminarCal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnEliminarCal.Margin = new System.Windows.Forms.Padding(2);
             this.btnEliminarCal.Name = "btnEliminarCal";
             this.btnEliminarCal.Size = new System.Drawing.Size(91, 43);
             this.btnEliminarCal.TabIndex = 57;
@@ -267,7 +269,7 @@
             // txtAgregarCalificacion
             // 
             this.txtAgregarCalificacion.Location = new System.Drawing.Point(437, 135);
-            this.txtAgregarCalificacion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtAgregarCalificacion.Margin = new System.Windows.Forms.Padding(2);
             this.txtAgregarCalificacion.Name = "txtAgregarCalificacion";
             this.txtAgregarCalificacion.Size = new System.Drawing.Size(91, 43);
             this.txtAgregarCalificacion.TabIndex = 56;
@@ -290,7 +292,7 @@
             // 
             this.txtCalificacion.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCalificacion.Location = new System.Drawing.Point(576, 85);
-            this.txtCalificacion.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtCalificacion.Margin = new System.Windows.Forms.Padding(2);
             this.txtCalificacion.Name = "txtCalificacion";
             this.txtCalificacion.Size = new System.Drawing.Size(150, 26);
             this.txtCalificacion.TabIndex = 53;
@@ -310,7 +312,7 @@
             // 
             this.txtMateria.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtMateria.Location = new System.Drawing.Point(576, 54);
-            this.txtMateria.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtMateria.Margin = new System.Windows.Forms.Padding(2);
             this.txtMateria.Name = "txtMateria";
             this.txtMateria.Size = new System.Drawing.Size(150, 26);
             this.txtMateria.TabIndex = 51;
@@ -330,14 +332,14 @@
             // 
             this.txtNumeroCal.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNumeroCal.Location = new System.Drawing.Point(576, 24);
-            this.txtNumeroCal.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtNumeroCal.Margin = new System.Windows.Forms.Padding(2);
             this.txtNumeroCal.Name = "txtNumeroCal";
             this.txtNumeroCal.Size = new System.Drawing.Size(150, 26);
             this.txtNumeroCal.TabIndex = 60;
             // 
             // btnGuardarEnLaLista
             // 
-            this.btnGuardarEnLaLista.Location = new System.Drawing.Point(461, 208);
+            this.btnGuardarEnLaLista.Location = new System.Drawing.Point(554, 253);
             this.btnGuardarEnLaLista.Margin = new System.Windows.Forms.Padding(2);
             this.btnGuardarEnLaLista.Name = "btnGuardarEnLaLista";
             this.btnGuardarEnLaLista.Size = new System.Drawing.Size(91, 43);
@@ -348,7 +350,7 @@
             // 
             // btnCargar
             // 
-            this.btnCargar.Location = new System.Drawing.Point(576, 208);
+            this.btnCargar.Location = new System.Drawing.Point(659, 253);
             this.btnCargar.Margin = new System.Windows.Forms.Padding(2);
             this.btnCargar.Name = "btnCargar";
             this.btnCargar.Size = new System.Drawing.Size(91, 43);
@@ -357,11 +359,31 @@
             this.btnCargar.UseVisualStyleBackColor = true;
             this.btnCargar.Click += new System.EventHandler(this.btnCargar_Click);
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(603, 210);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 64;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(475, 210);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(123, 21);
+            this.label10.TabIndex = 65;
+            this.label10.Text = "Nombre archivo";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(918, 585);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.btnCargar);
             this.Controls.Add(this.btnGuardarEnLaLista);
             this.Controls.Add(this.label9);
@@ -391,7 +413,7 @@
             this.Controls.Add(this.txtNombre);
             this.Controls.Add(this.txtMatricula);
             this.Controls.Add(this.txtNumero);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -429,6 +451,8 @@
         private System.Windows.Forms.TextBox txtNumeroCal;
         private System.Windows.Forms.Button btnGuardarEnLaLista;
         private System.Windows.Forms.Button btnCargar;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label10;
     }
 }
 

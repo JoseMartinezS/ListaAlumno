@@ -153,12 +153,13 @@ namespace ListaAlumno
 
         private void btnGuardarEnLaLista_Click(object sender, EventArgs e)
         {
-            miLista.Guardar("testListaCircular");
+            miLista.Guardar(textBox1.Text);
         }
 
         private void btnCargar_Click(object sender, EventArgs e)
         {
-            miLista.Cargar("testListaCircular");
+            miLista.Cargar(textBox1.Text);
+            miLista.Mostrar(LstAlumno);
         }
     }
 }

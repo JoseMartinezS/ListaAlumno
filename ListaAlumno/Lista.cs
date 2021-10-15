@@ -93,7 +93,7 @@ namespace ListaAlumno
                 h.Siguiente = h.Siguiente.Siguiente;
             }
         }
-        public void Mostrar(ListBox lista)
+        public void Mostrar(ListBox lista )
         {
             Nodo h = head;
             lista.Items.Clear();
@@ -111,7 +111,6 @@ namespace ListaAlumno
             {
                 return;
             }
-            nombreArchivo = "testListaCircular";
             string path = @"d:\" + nombreArchivo + ".txt";
             using (StreamWriter sw = File.CreateText(path))
             {
@@ -128,7 +127,6 @@ namespace ListaAlumno
         public void Cargar(string nombreArchivo)
         {
             Nodo h = head;
-            nombreArchivo = "testListaCircular";
             string[] lineas = File.ReadAllLines(@"d:\" + nombreArchivo + ".txt");
             foreach (string linea in lineas)
             {
